@@ -1,0 +1,95 @@
+body{
+    height: 300vh;
+    background-color: rgb(255, 255, 255);
+}
+.nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    height: 60px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid rgb(121, 175, 236);
+}
+
+.nav__title{
+    margin-left: 30px;
+    color: transparent;
+    background-image: url(https://previews.123rf.com/images/singto2/singto21607/singto2160700277/59817601-%EB%AC%BC-%EB%B0%B0%EA%B2%BD-%EB%AC%BC-%ED%91%9C%EB%A9%B4%EC%9E%85%EB%8B%88%EB%8B%A4-%EC%B6%94%EC%83%81%EC%A0%81-%EC%9D%B8-%EB%B0%B0%EA%B2%BD%EC%9E%85%EB%8B%88%EB%8B%A4-%EB%B0%94%EB%8B%A4-%EB%AC%BC-%ED%91%9C%EB%A9%B4-%EC%A7%88%EA%B0%90%EC%9E%85%EB%8B%88%EB%8B%A4-%EA%B9%8A%EC%9D%80-%EB%B0%94%EB%8B%A4-%ED%8C%8C%EB%8F%84.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+.main-screen__header{
+    color: #3380f3;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.main-screen__declaration{
+    font-size: 17px;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.main-screen__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.main-screen__login input{
+    width: 500px;
+    border: none;
+    background-color:  rgb(210, 226, 245);
+    font-size: 18px;
+    padding: 15px 0px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.main-screen__login input::placeholder{
+    color: rgb(0,0,0,0.3);
+    padding-left: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-screen__login input:focus::placeholder{
+    color: transparent;
+}
+
+input[type=text]{
+    border-bottom: 1px solid rgb(119, 169, 235);
+}
+input[type=password]{
+    border-bottom: 1px solid rgb(119, 169, 235);
+}
+
+a {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.main-screen__login input[type=submit]{
+    color:rgb(248, 247, 245);
+    border-radius: 4px;
+    background-color:  rgb(109, 177, 233);
+    cursor: pointer;
+}
+
+

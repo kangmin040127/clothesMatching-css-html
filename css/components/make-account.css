@@ -1,0 +1,137 @@
+body{
+    height: 100%;
+    background-size: 1300px;
+}
+
+.main-screen__make-acc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-box{
+    margin-left: 30px;
+}
+.signup-header{
+    font-size: 32px;
+    color:  rgb(0, 35, 77);
+    margin-left: 35px;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 80px;
+} 
+.sign-input-contents{
+    align-items: flex-start;
+}
+.signup-input{
+    margin: 30px 30px;
+}
+
+.signup-header__caution{
+    font-size: 15px;
+    margin: 30px 0;
+    color: red;
+}
+
+.caution{
+    color: red;
+}
+
+
+.signup-input input{
+    height: 10px;
+    width: 300px;
+    border: none;
+    background-color:  rgb(210, 226, 245);
+    font-size: 18px;
+    padding: 15px 0px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.signup-input input::placeholder{
+    color: rgb(0,0,0,0.3);
+    padding-left: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.signup-input input:focus::placeholder{
+    color: transparent;
+}
+
+input[type=number]{
+    width: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.select{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.select-contents{
+    display: flex;
+    align-items: center;
+}
+
+#Gender{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(210, 226, 245);
+    border-radius: 10px;
+    appearance: none;
+    text-align-last: center;
+    text-align: center;
+}
+
+
+select:focus{
+    outline: none;
+}
+
+.select label{
+    font-size: 19px;
+    font-weight: 900;
+    padding-right: 7px;
+    color: rgb(53, 115, 221);
+
+}
+
+label[for="Job"]{
+    margin-right: 34px;
+}
+
+
+.signup-button{
+    margin-left: 30px;
+    width: 110px;
+    height: 80px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(210, 226, 245);
+    transition: all 0.2s ease-in;
+    margin-bottom: 13px;
+}
+
+.signup-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.main-screen__advertise{
+    align-items: center;
+    height: 400px;
+    background-color: rgb(181, 215, 255);
+    padding: 5px 10px;
+    margin-top: 100px;
+    margin-right: 90px;
+    border-radius: 10px;
+    font-weight: 590;
+    padding-bottom: 45px;
+}
